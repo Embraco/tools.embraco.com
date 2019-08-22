@@ -1,2 +1,2 @@
 # tools.embraco.com
-Tools website source code
+Source code for the Embraco Tools web site (http://tools.embraco.com)
