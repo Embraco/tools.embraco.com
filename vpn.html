@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Embraco Tools</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="home.html">Tools</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="vpn.html">VPN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ftp.html">FTP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="citrix.html">Citrix</a>
+      </li>
+<!--      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Item 1</a>
+          <a class="dropdown-item" href="#">Item 2</a>
+          <a class="dropdown-item" href="#">Item 3</a>
+        </div>
+      </li>
+-->    </ul>
+<img src="images/embraco.gif" alt="embraco">
+  </div>
+</nav>
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">VPN - Virtual Private Network </h1>
+      <p>To connect to the internal network using the VPN client, you will need to download and configure it on your computer.<br>
+      You will also need a user name and password.</p>
+      <!--      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+-->    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-10">
+        <h2>1. Download VPN client</h2>
+        <ul>
+          <li><a href="download/E81.40_CheckPointVPN.msi">Click here to download the Windows installer</a> (25,4 MB - 32 and 64-bit)</li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <h2>2. Install VPN client</h2>
+        <ul>
+          <li>Double click the installation file you have downloaded above: CheckPointVPN.msi.</li>
+          <li>Confirm the execution<br>
+              <img src="images/vpn_install1.png" width="416" height="309"></li>
+          <li>Click Next<br>
+          <img src="images/vpn_install2.png" width="506" height="384"></li>
+          <li>Ensure Endpoint Security VPN is selected and click Next<br>
+            <img src="images/vpn_install3.png" width="506" height="384"></li>
+          <li>Select I accept the terms in the license agreement and click Next<br>
+          <img src="images/vpn_install4.png" width="506" height="384"></li>
+          <li>Click Install. You will be prompted to enter an Administrator credential<br>
+            <img src="images/vpn_install5.png" width="506" height="384"></li>
+          <li>Click Finish. Reboot if necessary<br>
+            <img src="images/vpn_install6.png" width="506" height="384"></li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <h2>3. Configure the VPN connection</h2>
+          <ul>
+            <li>Click Yes to configure a new site<br>
+              <img src="images/vpn_configure1.png" width="401" height="125"></li>
+            <li>Click Next<br>
+              <img src="images/vpn_configure2.png" width="498" height="397"></li>
+            <li>Enter the server name vpn.embraco.com and click Next<br>
+              <img src="images/vpn_configure3.png" width="498" height="397"></li>
+            <li>Click Trust and Continue<br>
+              <img src="images/vpn_configure4.png" width="556" height="483"></li>
+            <li>Select Username and Password and click Next<br>
+              <img src="images/vpn_configure5.png" width="498" height="397"></li>
+            <li>Click Finish<br>
+              <img src="images/vpn_configure6.png" width="498" height="397"></li>
+          </ul>
+      </div>
+    <div class="col-md-10">
+        <h2>4. VPN - Connection instructions</h2>
+          <ul>
+            <li>Double click the VPN icon on the taskbar<br>
+              <img src="images/vpn_connect0.png" width="338" height="39"></li>
+            <li>Enter your username and password and click the Connect button<br>
+              <img src="images/vpn_connect1.png" width="573" height="350"></li>
+            <li>Enter the server name vpn.embraco.com and click Next<br>
+            </li>
+            <li>Wait the VPN connection to be established<br>
+              <img src="images/vpn_connect2.png" width="555" height="222"></li>
+            <li>When it is connected, the VPN taskbar icon changes to indicate it<br>
+              <img src="images/vpn_connect3.png" width="410" height="39"></li>
+            <li>To end the VPN connection, double click the VPN taskbar icon and choose Disconnect<br>
+              <img src="images/vpn_connect4.png" width="719" height="518"></li>
+        </ul>
+      </div>
+	 </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+</html>
